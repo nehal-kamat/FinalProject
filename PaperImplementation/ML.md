@@ -24,7 +24,7 @@ Step 2 :
 
 + Cell size = 250/N.
 + Split each h,s,v into c_h, c_s and c_v bands of equal width.
-+ Create feature vector of size(N*N*Ch*Cs*Cv) : data type bitvector.
++ Create feature vector of size(NxNxChxCsxCv) : data type bitvector.
 + extract cells from matrix : [code](trash/testExtractCells.java)
 + For each cell, say hsvCell,  store in FinalMat of data type MyBitMatrix, the boolean result for that particular cell.
 + Final feature vector : use data type BitVector. 
